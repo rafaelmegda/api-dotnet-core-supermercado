@@ -1,3 +1,10 @@
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Supermercado.API.Domain.Models;
+using Supermercado.API.Domain.Services;
+
+
 namespace Supermercado.API.Controllers
 {
     [Route("/api/[controller]")]

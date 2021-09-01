@@ -47,5 +47,5 @@ Dentro da sua pasta, terá os seguintes arquivos:
  Após o restore, é necessário bildar o projeto, rode no mesmo diretório o comando:
  > dotnet build
 
- Com o build finalizado, vamos rodar a aplicação com o comando abaixo no CMD:
+ Com o build finalizado, você tera uma mensagem no CMD "Compilação com Exito 00 erros", ae então vamos rodar a aplicação com o comando abaixo no CMD:
  > dotnet run

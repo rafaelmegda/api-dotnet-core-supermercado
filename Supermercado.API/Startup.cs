@@ -11,6 +11,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Microsoft.EntityFrameworkCore;
+using Supermercado.API.Domain.Repositories;
+using Supermercado.API.Domain.Services;
+using Supermercado.API.Persistence.Repositories;
+using Supermercado.API.Persistence.Contexts;
+using Supermercado.API.Services;
 
 namespace Supermercado.API
 {
