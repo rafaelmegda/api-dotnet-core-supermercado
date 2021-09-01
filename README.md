@@ -5,9 +5,11 @@ Em Construção.... API para estudos iniciais de DotNet Core usando EntityFrameW
 Para criar o projeto, abra o diretório que irá criar a aplição, e abra o CMD para digitar o comandos abaixo:
 
 > Mkdir src
+
 > cd src
 
 > Mdkir Supermercado.API
+
 > cd Supermercado.API
 
 Após criar os diretetórios, rode o comando para criar o projeto usando o template API com o seguinte comando:
@@ -23,6 +25,12 @@ Dentro da sua pasta, terá os seguintes arquivos:
  * Abrir na sua IDE
  * Estudar!
 
+ ## Instalação do Pacote EntityFrameWorkCore
+
  ## Para Rodar o código, faça os seguintes passos:
 
- //Obs para seguir: Persistence -> Repositories
+ Para restaurar o projeto após alterações, comando no CMD dentro da pasta do projeto:
+ >dotnet restore
+
+ Após o restore, é necessário bildar o projeto, rode no mesmo diretório o comando:
+ >dotnet build
