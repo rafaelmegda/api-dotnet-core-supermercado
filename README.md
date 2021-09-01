@@ -25,4 +25,4 @@ Dentro da sua pasta, terá os seguintes arquivos:
 
  ## Para Rodar o código, faça os seguintes passos:
 
- //Obs para seguir: 
+ //Obs para seguir: Persistence -> Repositories
