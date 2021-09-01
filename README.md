@@ -27,10 +27,25 @@ Dentro da sua pasta, terá os seguintes arquivos:
 
  ## Instalação do Pacote EntityFrameWorkCore
 
+ Dentro da pasta do seu projeto, rode os comandos abaixo no seu CMD: (obs: é possível especificar a versão na instalar, caso não especifique será instalado a últma versão do Framework)
+
+ > dotnet add package Microsoft.EntityFrameworkCore
+
+ > dotnet add package Microsoft.EntityFrameworkCore.Tools
+
+ > dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+ > dotnet add package Microsoft.EntityFrameworkCore.InMemory
+
+ Após instalar os pacote confira no arquivo Supermercado.API.csproj se estão com todas as dependencias instaladas
+
  ## Para Rodar o código, faça os seguintes passos:
 
  Para restaurar o projeto após alterações, comando no CMD dentro da pasta do projeto:
- >dotnet restore
+ > dotnet restore
 
  Após o restore, é necessário bildar o projeto, rode no mesmo diretório o comando:
- >dotnet build
+ > dotnet build
+
+ Com o build finalizado, vamos rodar a aplicação com o comando abaixo no CMD:
+ > dotnet run
